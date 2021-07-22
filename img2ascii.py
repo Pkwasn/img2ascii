@@ -54,8 +54,8 @@ def main(path):
     #Puts the image together by looping through the text and creating
     #a new line at every NEW_WIDTH (which is the total length of a row)
     new_image = ''
-    for index in range(0, len(pixels), NEW_WIDTH):
-        new_image += pixels[index:index+NEW_WIDTH] + '\n'
+    for chars in range(0, len(pixels), NEW_WIDTH):
+        new_image += pixels[chars:chars+NEW_WIDTH] + '\n'
     
     f = open('ascii.txt','w')
     f.write(new_image)
@@ -63,7 +63,6 @@ def main(path):
 
 if __name__ == '__main__':
     import sys
-    import urllib.request
 
     path = sys.argv[1]
     main(path)
