@@ -3,4 +3,4 @@ Simple Image to ASCII text generator
 
 Usage:
 
-python3 img2ascii.py <file>.<extension>
+python3 img2ascii.py [file].[extension]
