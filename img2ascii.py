@@ -1,6 +1,6 @@
 from PIL import Image
 
-#Adjust noaiv value when changing ASCII number of ascii characters
+#Adjust noaiv value when changing number of ASCII characters
 
 ASCII_CHARS = ['@','#','%','$','?','*','+','~',':',';',' ']
 #ASCII_CHARS = ['@','#',"%",'$','&','?','W','G','P'] #Alernative ASCII Chars
